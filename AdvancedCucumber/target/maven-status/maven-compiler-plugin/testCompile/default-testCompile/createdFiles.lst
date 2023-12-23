@@ -1,0 +1,6 @@
+tests/testPlayer.class
+tests/testTeam.class
+infra/SetUp.class
+logic/TeamSection.class
+logic/PlayerSection.class
+logic/StatePage.class
