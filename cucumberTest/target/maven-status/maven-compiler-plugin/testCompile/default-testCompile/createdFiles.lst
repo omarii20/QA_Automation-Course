@@ -1,0 +1,6 @@
+logic/HomePage.class
+Steps/WebDriverSteps.class
+infra/SetUp.class
+Steps/HomeSteps.class
+logic/WebDriverPage.class
+logic/BasePage.class
