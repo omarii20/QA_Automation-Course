@@ -63,6 +63,15 @@ public class OpenAppTest {
         Assertions.assertEquals("true",SettingsVibrate.VibrateIsChecked());
     }
 
+    @Test
+    public void addNewEvent(){
+        AddEvent newEvent = new AddEvent(appWrapper.getDriver());
+        String eventName = "Test Event";
+        String eventDesc = "QA Automation course meeting";
+        newEvent.addNewEvent(eventName, eventDesc);
+        Assertions.assertTrue(newEvent.validateEvent(eventName));
+    }
+
 //    @After
 //    public void tearDown() {
 //        if (appWrapper.getDriver() != null) {
